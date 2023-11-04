@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<Module>
+	
+	<GlobalSolutionName>ThirdParty</GlobalSolutionName>
+	<GlobalNamespace>potato</GlobalNamespace>
+
+	<StaticLibrary>
+		<Name>thirdparty_libbmp</Name>
+		<SourceRoot>.</SourceRoot>
+		<ExportedIncludeDirectory>.</ExportedIncludeDirectory>
+		<ThirdParty>true</ThirdParty>
+		<ThirdPartySourceFile>libbmp.c</ThirdPartySourceFile>
+	</StaticLibrary>
+
+</Module>
